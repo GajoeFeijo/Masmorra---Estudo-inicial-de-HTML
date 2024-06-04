@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabana do Mago</title>
+    
+    <style>
+        body {background-color: #212929;}
+        h1 {color: darkorange; text-align: center;}
+        h2 {color: darkorange; text-align: center;}
+        p {color: darkorange; text-align: center;}
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+        }
+        .center2 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+        }
+
+        .pmago {color: rgb(245, 13, 83);}
+
+        .pplayer {color: darkcyan;}
+    </style>
+
+</head>
+<body>
+    
+    <audio src="Sons/morte.wav" id="dor" preload="auto"></audio>
+
+    <h1>Cabana do Mago</h1>
+    
+    <br>
+    
+    <p>Você <i>tentou</i> dar um socão na cara do velho mago, mas ele desviou e te acertou com um raio mortal!</p>
+    
+    <br>
+
+    <button style="background-color: #212929; border: 0cap;" class="center" onclick="document.getElementById('dor').play();">
+        <img src="Imagens/pilha de ossos.png" alt="Você" class="center2">
+    </button>
+    
+    <br>
+
+    <p class="pmago">"Idiota, eu sou implacável. Só um tolo como meu irmão perderia para algo tão patético como um soco na cara. Aproveite a morte..."</p>
+
+    <p>Você morreu.</p>
+
+</body>
+</html>

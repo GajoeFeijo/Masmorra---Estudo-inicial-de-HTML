@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonfire</title>
+    <style>
+        body {background-color: #212929;}
+        h1 {color: darkorange;}
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+        }
+        .center2 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+        p {color: darkorange;}
+    </style>
+
+</head>
+<body>
+
+    <audio id="fogo" src="navegação/Sons/fogo.wav" preload="auto" loop></audio>
+
+    <audio id="dungeon" src="navegação/Sons/dungeon.mp3" preload="auto" loop></audio>
+
+    <h1 style="text-align: center;"><marquee behavior="right" direction="alternate">BEM VINDO AO DESCONHECIDO, AVENTUREIRO</marquee></h1>
+
+    <button class="center" style="background-color: #212929; border: 0cap;" onclick="document.getElementById('fogo' , 'dungeon').play();">
+        <img src="navegação/Imagens/bonfire.gif" alt="Bonfire" class="center2">
+    </button>
+
+    <p style="text-align: center; font-size: xx-small; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(54, 66, 61);">Clique na fogueira para uma experiência mais interativa!</p>
+
+    <p style="text-align: center;">Não sabe como veio parar aqui, não é? <br> Talvez a escolha mais sábia seja explorar...</p>
+
+    <br>
+
+    <p style="text-align: center;">
+        <a href="navegação/hall.html" style="color: chartreuse;" rel="next" target="_blank" ><strong><big>Explorar</big></strong></a>
+    </p>
+</body>
+</html>
